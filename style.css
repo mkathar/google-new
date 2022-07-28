@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+
+
+.lefthead{
+    position: absolute;
+    left:0px ;
+    padding: 5px;
+    
+    
+    height: 50px;
+    width: 150px;
+    
+    
+}
+.righthead{
+   position: absolute;
+   right:  0px;
+   
+
+}
+li{
+    display: inline-block;
+}
+#SingIn{
+    border-radius: 3px;
+    border-style: none;
+    color: white;
+    padding: 3px;
+
+    background-color:rgb(68, 134, 248)
+}
+.footer-right{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    z-index: 1;
+}
+.footer-left{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    z-index: 1;
+}
+.search-box{
+    width: 500x;
+    height: 500px;
+    margin: 25%;
+    
+
+}
+.logo
+{ 
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    right: 37%;
+    margin:auto
+    
+
+}
+.input-l
+{
+width: 500px;
+height: 40px;
+
+border-radius: 15px;
+border-style: solid;
+position: absolute;
+top: 38%;
+left: 27%;
+right: 27%;
+margin:auto
+
+
+}
+.search-button
+{
+    background:rgb(243, 243, 243);
+    border-radius: 2px;
+    border-style: none;
+    width: 150px;
+    height: 35px;
+    position: absolute;
+    top: 47%;
+    left: 33%;
+    
+    margin: auto;
+}
+.search-button2
+{   
+    background:rgb(243, 243, 243);
+    border-radius: 2px;
+    border-style: none;  
+    width: 150px;
+    height: 35px;
+    position: absolute;
+    top: 47%;
+    right: 33%;
+    margin:auto
+
+}
+.search-icon
+{
+position: absolute;
+top: 38%;
+width: 10;
+
+
+
+
+}
+.footer-line{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    left:0%;
+    width: auto;
+    height: 35px;
+    background-color:rgb(240, 240, 240);
+
+    z-index: 0;
+}
